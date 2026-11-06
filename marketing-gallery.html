@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Gallery — Panthu Geological Services Co-operative Ltd.</title>
+  <meta name="description" content="Materials, textures and surface details from the Panthu collection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="marketing">
+  <div data-include="header"></div>
+
+  <main>
+    <section class="page-hero page-hero-simple">
+      <div class="container page-hero-anim">
+        <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li><a href="marketing.html">Marketing</a></li><li>More pictures</li></ol>
+        <p class="eyebrow">Marketing / Gallery</p>
+        <h1>A closer look<br />at natural stone.</h1>
+        <p class="page-hero-lead">Materials, textures and surface details from the Panthu collection.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow reveal">Explore the gallery</p>
+        <h2 class="reveal">Explore the details.</h2>
+
+        <div class="filters" data-filters="gallery-list" role="group" aria-label="Filter images">
+          <button type="button" data-filter="all" class="is-active" aria-pressed="true">All images</button>
+          <button type="button" data-filter="materials" aria-pressed="false">Materials</button>
+          <button type="button" data-filter="spaces" aria-pressed="false">Spaces</button>
+          <button type="button" data-filter="details" aria-pressed="false">Details</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-list" data-lightbox>
+          <a href="images/granite.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/granite.svg" alt="Green granite texture" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Granite</h3></div>
+          </a>
+          <a href="images/marble.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/marble.svg" alt="Black marble with white veins" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Marble</h3></div>
+          </a>
+          <a href="images/decorative.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/decorative.svg" alt="Brown decorative stone texture" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Decorative stone</h3></div>
+          </a>
+          <a href="images/slate.svg" class="gallery-card reveal" data-category="details">
+            <div class="project-img"><img src="images/slate.svg" alt="Multi-coloured stone texture" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Natural texture</h3></div>
+          </a>
+          <a href="images/granite.svg" class="gallery-card reveal" data-category="spaces details">
+            <div class="project-img"><img src="images/granite.svg" alt="Polished green stone surface" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Stone surfaces</h3></div>
+          </a>
+          <a href="images/marble.svg" class="gallery-card reveal" data-category="spaces details">
+            <div class="project-img"><img src="images/marble.svg" alt="Close-up of marble veining" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Marketing / Gallery</span><h3>Material detail</h3></div>
+          </a>
+        </div>
+
+        <p class="gallery-note">A selection of materials and details from marketing.</p>
+      </div>
+    </section>
+
+    <div data-include="cta"></div>
+  </main>
+
+  <div data-include="footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

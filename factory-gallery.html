@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Factory and Quarry Gallery — Panthu Geological Services Co-operative Ltd.</title>
+  <meta name="description" content="A closer look at our stone materials, sourcing and factory capabilities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="factory">
+  <div data-include="header"></div>
+
+  <main>
+    <section class="page-hero page-hero-simple">
+      <div class="container page-hero-anim">
+        <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li><a href="factory-quarry.html">Factory and Quarry</a></li><li>More pictures</li></ol>
+        <p class="eyebrow">Factory and quarry / Gallery</p>
+        <h1>From raw material<br />to refined surface.</h1>
+        <p class="page-hero-lead">A closer look at our stone materials, sourcing and factory capabilities.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow reveal">Explore the gallery</p>
+        <h2 class="reveal">Explore the details.</h2>
+
+        <div class="filters" data-filters="gallery-list" role="group" aria-label="Filter images">
+          <button type="button" data-filter="all" class="is-active" aria-pressed="true">All images</button>
+          <button type="button" data-filter="materials" aria-pressed="false">Materials</button>
+          <button type="button" data-filter="spaces" aria-pressed="false">Spaces</button>
+          <button type="button" data-filter="details" aria-pressed="false">Details</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-list" data-lightbox>
+          <!-- Placeholder — replace with the photo of the Panthu factory building -->
+          <a href="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1800&q=85" class="gallery-card reveal" data-category="spaces">
+            <div class="project-img"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=900&q=80" alt="Panthu factory building" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Factory</h3></div>
+          </a>
+          <a href="images/decorative.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/decorative.svg" alt="Brown stone texture" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Material selection</h3></div>
+          </a>
+          <a href="images/granite.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/granite.svg" alt="Green granite surface" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Natural surfaces</h3></div>
+          </a>
+          <a href="images/slate.svg" class="gallery-card reveal" data-category="details">
+            <div class="project-img"><img src="images/slate.svg" alt="Multi-coloured stone detail" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Stone details</h3></div>
+          </a>
+          <a href="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1800&q=85" class="gallery-card reveal" data-category="spaces details">
+            <div class="project-img"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=900&q=80" alt="Factory exterior" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Finishing possibilities</h3></div>
+          </a>
+          <a href="images/decorative.svg" class="gallery-card reveal" data-category="materials">
+            <div class="project-img"><img src="images/decorative.svg" alt="Selected brown stone" loading="lazy" /></div>
+            <div class="project-body"><span class="project-tag">Factory and quarry / Gallery</span><h3>Selected stone</h3></div>
+          </a>
+        </div>
+
+        <p class="gallery-note">A selection of materials and details from factory and quarry.</p>
+      </div>
+    </section>
+
+    <div data-include="cta"></div>
+  </main>
+
+  <div data-include="footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
